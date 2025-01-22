@@ -4,7 +4,10 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
-var fireworkX = 20;
+
+var fireworkX = 20
+var fireworky = 400
+var froneX = 20
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
@@ -17,9 +20,21 @@ draw = function(){
   }
   
   //🎯Animation Code Goes Here
-  rect(fireworkX, 15, 10, 10);
   
-  fireworkX = fireworkX + 1;
+  fill (255, 215, 0)
+  ellipse (200, fireworkY, firework, firework);
+  ellipse (100, fireworkY, firework, firework);
+  fill (255, 165, 0)
+  ellipse (250, fireworkY, firework, firework);
+  ellipse (300, fireworkY, firework, firework);
+  ellipse (150, fireworkY, firework, firework);
+  
+  fill(255, 255, 255);
+  rect (droneX, 20, 10, 10)
+  
+  firework += 1
+  fireworkY -= 3
+  droneX+=2
 
 }
 
