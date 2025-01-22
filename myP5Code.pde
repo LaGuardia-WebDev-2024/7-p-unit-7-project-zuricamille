@@ -7,7 +7,7 @@ void setup() {
 
 var fireworkX = 20
 var fireworky = 400
-var froneX = 20
+var droneX = 20
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
